@@ -80,8 +80,6 @@
   <section class="hero" id="home">
     <h2>Bem-vindo à MixSphere</h2>
     <p>Descubra eBooks incríveis para sua vida, aprendizado e bem-estar.</p>
-    <a class="btn" href="https://www.kiwify.com.br/" target="_blank">Compre na Kiwify</a>
-    <a class="btn" href="Receitas_Fitness_Reais_MixSphere.pdf" target="_blank">Baixar eBook Fitness</a>
   </section>
 
   <section class="hero" id="sobre">
@@ -91,20 +89,19 @@
 
   <section class="hero" id="loja">
     <h2>Nossa Loja</h2>
-    <p>Veja os produtos disponíveis na nossa página da Kiwify. Atualizamos constantemente com novos eBooks exclusivos.</p>
-    <a class="btn" href="https://www.kiwify.com.br/" target="_blank">Acessar Loja</a>
+    <p>Veja os produtos disponíveis. Atualizamos constantemente com novos eBooks exclusivos.</p>
   </section>
 
-  <section class="hero" id="contato">
-    <h2>Contato</h2>
-    <p>Tem alguma dúvida ou sugestão? Fale com a gente por e-mail: mixsphere@gmail.com
-  </section>
+
+    
 
   <div class="footer">
     <p>&copy; 2025 MixSphere. Todos os direitos reservados.</p>
   </div>
 </body>
 </html>
+**
+**
 
 
     <p>Email: contato@mixsphere.com.br</p>
