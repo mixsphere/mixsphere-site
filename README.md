@@ -1,115 +1,112 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MixSphere - Seu universo de eBooks</title>
-  <link rel="stylesheet" href="style.css">
+  <title>MixSphere | Loja de eBooks</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
     }
     header {
       background-color: #4CAF50;
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    header img {
-      height: 50px;
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
     }
     nav a {
       color: white;
-      margin-left: 1rem;
+      padding: 14px 20px;
+      display: block;
       text-decoration: none;
-      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #575757;
     }
     .hero {
+      padding: 50px;
       text-align: center;
-      padding: 4rem 2rem;
-      background-color: #eaf8ee;
+      background-color: #e5f5ea;
     }
-    .hero h1 {
-      font-size: 2.5rem;
-      color: #4CAF50;
-    }
-    .hero p {
-      font-size: 1.2rem;
-    }
-    .section {
-      padding: 2rem;
-    }
-    .ebook {
-      background: white;
-      padding: 1rem;
-      margin: 1rem 0;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
-    .ebook h3 {
+    .hero h2 {
       margin-top: 0;
     }
-    .buy-button {
+    .btn {
+      display: inline-block;
       background-color: #4CAF50;
       color: white;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+      padding: 12px 24px;
+      margin-top: 20px;
       text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #45a049;
     }
     .footer {
       background-color: #333;
       color: white;
       text-align: center;
-      padding: 1rem;
+      padding: 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
-<body>  <header>
-    <img src="mixsphere-logo.png" alt="Logo MixSphere">
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#loja">Loja</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>  <section class="hero" id="home">
-    <h1>Bem-vindo à MixSphere</h1>
+<body>
+  <header>
+    <h1>MixSphere</h1>
     <p>Seu universo de eBooks em um só lugar</p>
-  </section>  <section class="section" id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>A MixSphere é uma loja digital focada em entregar conhecimento e transformação por meio de eBooks de alta qualidade, prontos para baixar e usar.</p>
-  </section>  <section class="section" id="loja">
-    <h2>Nossos eBooks</h2><div class="ebook">
-  <h3>Receitas Fitness</h3>
-  <p>Transforme sua alimentação com receitas saudáveis e deliciosas.</p>
-  <a class="buy-button" href="https://kiwify.com.br/produto-fitness" target="_blank">Comprar na Kiwify</a>
-</div>
+  </header>
 
-<div class="ebook">
-  <h3>Marketing Digital</h3>
-  <p>Aprenda estratégias para alavancar seus resultados online.</p>
-  <a class="buy-button" href="https://kiwify.com.br/produto-marketing" target="_blank">Comprar na Kiwify</a>
-</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#loja">Loja</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-<div class="ebook">
-  <h3>Finanças Pessoais</h3>
-  <p>Domine seu dinheiro com técnicas simples e eficazes.</p>
-  <a class="buy-button" href="https://kiwify.com.br/produto-financas" target="_blank">Comprar na Kiwify</a>
-</div>
+  <section class="hero" id="home">
+    <h2>Bem-vindo à MixSphere</h2>
+    <p>Descubra eBooks incríveis para sua vida, aprendizado e bem-estar.</p>
+    <a class="btn" href="https://www.kiwify.com.br/" target="_blank">Compre na Kiwify</a>
+    <a class="btn" href="Receitas_Fitness_Reais_MixSphere.pdf" target="_blank">Baixar eBook Fitness</a>
+  </section>
 
-<div class="ebook">
-  <h3>Desenvolvimento Pessoal</h3>
-  <p>Cresça como pessoa e alcance seus objetivos com foco e disciplina.</p>
-  <a class="buy-button" href="https://kiwify.com.br/produto-desenvolvimento" target="_blank">Comprar na Kiwify</a>
-</div>
+  <section class="hero" id="sobre">
+    <h2>Sobre a MixSphere</h2>
+    <p>Somos uma loja online dedicada à venda de eBooks para todas as áreas de interesse: saúde, educação, culinária e muito mais!</p>
+  </section>
 
-  </section>  <section class="section" id="contato">
+  <section class="hero" id="loja">
+    <h2>Nossa Loja</h2>
+    <p>Veja os produtos disponíveis na nossa página da Kiwify. Atualizamos constantemente com novos eBooks exclusivos.</p>
+    <a class="btn" href="https://www.kiwify.com.br/" target="_blank">Acessar Loja</a>
+  </section>
+
+  <section class="hero" id="contato">
     <h2>Contato</h2>
+    <p>Tem alguma dúvida ou sugestão? Fale com a gente por e-mail: mixsphere@gmail.com
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 MixSphere. Todos os direitos reservados.</p>
+  </div>
+</body>
+</html>
+
+
     <p>Email: contato@mixsphere.com.br</p>
     <p>Instagram: @mixsphere</p>
   </section>  <footer class="footer">
